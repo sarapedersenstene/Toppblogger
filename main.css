@@ -1,23 +1,147 @@
-body {
- background-image: url(img/korktavle_2.jpg);
+* {
+margin-left: 0%;
+margin-right: 0%;
+margin-top: 0%;
 }
 
+body {
+background-image: url(Korktavle.jpg);    
+}
+
+#wrapper {
+margin-left: auto;
+}
+
+/* Den øverste menyen */
+#toppmeny {
+    background: #303030;
+	height: 40px;
+	width: 100%; 
+	position: fixed;
+}
+
+/* Hovedbilde med webseriens overskrift og rosa bakgrunn */
+#toppblogger {
+    background: #E62E8A;
+	height: 15%;
+	width: 100%;
+    padding-top: 40px;
+}
+
+/* Webseriens overskrift */
 h1 {
-    height: 200px;
-    background-color: #ff006c;
-    width: 100%;
+    font-family: "Tahoma", sans-serif;
+    color: white;
     text-align: center;
     font-size: 90px;
-    color: white;
-    font-family: Helvetica, Arial, Myriad-pro;
-    padding-top: 100px;
+    padding-top: 70px;    
 }
 
+
+/* Overskrift til innhold */
+/*h2 {
+    font-family: "Tahoma", sans-serif;
+    font-size: 30px;
+}
+
+h3 {
+    font-family: "Tahoma", sans-serif;
+    font-size: 20px;
+    padding-bottom: 10px;
+    color: black;
+}*/
+
+/* Alle avsnitt */
+p {
+    font-family: "Tahoma", sans-serif;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Sosiale medier meny med bilder */
+#socialmedia {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;  
+}
+
+/* episode-meny */
+#episoder {
+    background-color: #000000;
+    width: 100%;
+    height: 40px;
+    color: white;
+    font-family: "Tahoma", sans-serif;
+}
+
+/* Innhold. Hovedbilde for episoder, blogg, Facebook, Instagram og kontaktinfo */
 #innhold {
-    background-color: white;
-    width: 800px;
     text-align: center;
     margin: auto;
-    height: 100%;
-    margin-top: 0px;
+    width: 55%;
+    background-color: white;
 }
+
+/* Venstre sideinnhold */
+#left-sidebar {
+    width: 20%;
+    margin-left: 0%;
+    float: left;
+    text-align: center;
+    /*background-image: url(img/korktavle_venstre.jpg);*/
+}
+
+#left-sidebar img {
+width: 60%;
+margin-bottom: 7%;
+}
+
+#right-sidebar img {
+width: 60%;
+margin-bottom: 7%;
+}
+
+/* Høyre sideinnhold */
+#right-sidebar {
+    text-align: center;
+    width: 20%;
+    margin-left: 0%;
+    float: left;
+    /*background-image: url(img/korktavle_høyre.jpg);*/
+}
+
+/* Lister */
+ul {
+	text-align: center;
+    font-family: "Tahoma";
+	list-style-type: none;
+	padding-left: 0px;
+    padding-top: 10px;
+	font-size: 15px;
+	color: white;
+}
+
+li {
+    text-align: center;
+	display: inline;
+	margin-left: 30px;
+	color: white;
+}
+
+/* Linker */
+a:link {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	text-decoration: none;
+    opacity: 0.6;
+    filter: alpha(opacity=60)
+}
+
+a:visited {
+	color: white;
+}
+
