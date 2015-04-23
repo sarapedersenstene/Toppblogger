@@ -23,7 +23,7 @@ margin-left: auto;
 /* Hovedbilde med webseriens overskrift og rosa bakgrunn */
 #toppblogger {
     background: #E62E8A;
-	height: 15%;
+	height: 45%;
 	width: 100%;
     padding-top: 15px;
 }
@@ -63,7 +63,7 @@ p {
 #socialmedia {
     text-align: center;
     margin-top: 20px;
-    margin-bottom: 20px;  
+    margin-bottom: 20px; 
 }
 
 /* Innhold. Hovedbilde for episoder, blogg, Facebook, Instagram og kontaktinfo */
@@ -112,6 +112,7 @@ ul {
     padding-top: 10px;
 	font-size: 15px;
 	color: white;
+    margin-left: 0px;
 }
 
 li {
