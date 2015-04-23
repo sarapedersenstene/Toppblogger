@@ -81,6 +81,7 @@ p {
     margin: auto;
     width: 55%;
     background-color: white;
+    float: left;
 }
 
 /* Venstre sideinnhold */
