@@ -1,15 +1,9 @@
 * {
-margin-left: 0%;
-margin-right: 0%;
-margin-top: 0%;
+    margin: 0;
 }
 
 body {
-background-image: url(Korktavle.jpg);    
-}
-
-#wrapper {
-margin-left: auto;
+    background-image: url(Korktavle.jpg);
 }
 
 /* Den øverste menyen */
@@ -23,7 +17,7 @@ margin-left: auto;
 /* Hovedbilde med webseriens overskrift og rosa bakgrunn */
 #toppblogger {
     background: #E62E8A;
-	height: 15%;
+	height: 250px;
 	width: 100%;
     padding-top: 40px;
 }
@@ -34,12 +28,11 @@ h1 {
     color: white;
     text-align: center;
     font-size: 90px;
-    padding-top: 70px;    
+    padding-top: 60px;    
 }
 
-
 /* Overskrift til innhold */
-/*h2 {
+h2 {
     font-family: "Tahoma", sans-serif;
     font-size: 30px;
 }
@@ -49,7 +42,7 @@ h3 {
     font-size: 20px;
     padding-bottom: 10px;
     color: black;
-}*/
+}
 
 /* Alle avsnitt */
 p {
@@ -66,41 +59,43 @@ p {
     margin-bottom: 20px;  
 }
 
+/* episode-meny */
+/* #episoder {
+    background-color: #000000;
+    width: 800px;
+    height: 40px;
+    color: white;
+    font-family: "Tahoma", sans-serif;
+} */
+
 /* Innhold. Hovedbilde for episoder, blogg, Facebook, Instagram og kontaktinfo */
 #innhold {
     text-align: center;
     margin: auto;
-    width: 60%;
-    background-color: white;
+    width: 800px;
+    height: 800px;
     float: left;
+    background-color: white;
 }
 
 /* Venstre sideinnhold */
 #left-sidebar {
-    width: 20%;
-    margin-left: 0%;
+    margin: auto;
+    width: 240px;
+    height: 800px;
+    margin-left: 0px;
     float: left;
     text-align: center;
-    /*background-image: url(img/korktavle_venstre.jpg);*/
-}
-
-#left-sidebar img {
-width: 60%;
-margin-bottom: 7%;
-}
-
-#right-sidebar img {
-width: 60%;
-margin-bottom: 7%;
 }
 
 /* Høyre sideinnhold */
 #right-sidebar {
     text-align: center;
-    width: 20%;
-    margin-left: 0%;
+    margin: auto;
+    width: 240px;
+    height: 800px;
+    margin-left: 0px;
     float: left;
-    /*background-image: url(img/korktavle_høyre.jpg);*/
 }
 
 /* Lister */
